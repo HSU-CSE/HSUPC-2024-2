@@ -74,6 +74,7 @@ def start_flood():
             nx = x + dx[i]; ny = y + dy[i]
             if 0<=nx<N and 0<=ny<M and not visited[nx][ny]:
                 if island[nx][ny] != '*': # 현재 물이 아닌 지역 발견시
+                    island[nx][ny] = '*'
                     visited[nx][ny] = True
                     new_waterQ.append((nx,ny)) # 다음 물이 도달할 지역으로 선정
                 if island[nx][ny] == 'C': # 토끼보다 먼저 홍수가 당근에 도달하였다면
