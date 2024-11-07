@@ -12,7 +12,7 @@ void solve() {
         else n++;
     }
 
-    cout << n * m;
+    cout << n + m;
 }
 
 void input() {
