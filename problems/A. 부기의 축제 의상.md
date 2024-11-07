@@ -12,13 +12,13 @@
 ## 출력
 "ytisrevinU gnusnaH"을 한 줄에 출력한다.
 
-## 예제 입력 1 
+## 예제 입력
 
 ```
 
 ```
 
-## 예제 출력 1
+## 예제 출력
 
 ```
 ytisrevinU gnusnaH
