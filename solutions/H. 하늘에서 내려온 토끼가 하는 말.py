@@ -30,26 +30,7 @@ for i in range(N):
         elif row[j] == '*':
             waterQ.append((i,j))
             visited[i][j] = 0 # 홍수 방문 처리
-        
     island.append(row)
-
-def move_able(x,y,l_x,l_y):
-    # 앞으로 물에 빠질 땅인지 판단
-    time = visited[l_x][l_y]
-    for i in range(4):
-        nx = x + dx[i]; ny = y + dy[i]
-        if (nx,ny) == (l_x,l_y): # 이전 자신의 위치는 고려 x
-            continue
-        if 0<=nx<N and 0<=ny<M and island[nx][ny] == '*':
-            # 물이 토끼보다 먼저 도달할 예정이라면 이동 불가
-            # 토끼는 (x,y)에 도달하고 싶은 상황
-            # (x,y) 에 토끼는 time + 1에 도착 예정
-            # (x,y) 에 물은 visited[nx][ny] + 1에 도착 예정
-            # time + 1 < visited[nx][ny] + 1 인 상황에서만 토끼가 (x,y)에 도착 가능
-            # time < visited[nx][ny] 이면 이동 가능한 좌표
-            if time >= visited[nx][ny]: # 물이 먼저 해당 좌표에 도달하게 됨
-                return False
-    return True
 
 # 토끼가 당근으로 이동한다.
 def is_meet():
@@ -66,9 +47,8 @@ def is_meet():
             if 0<=nx<N and 0<=ny<M and visited[nx][ny] == -1:
                 if island[nx][ny] != '*': # 물이 아닌 지역으로 방문 가능
                     # 다음에 물이 도달할 지역인지 검사
-                    if move_able(nx,ny,x,y): 
-                        visited[nx][ny] = visited[x][y] + 1
-                        new_bunnyQ.append((nx,ny))
+                    visited[nx][ny] = visited[x][y] + 1
+                    new_bunnyQ.append((nx,ny))
     # 현재 시간에서 만나지 못할 경우 다음 시간으로 넘김
     bunnyQ = new_bunnyQ
     return False
@@ -89,7 +69,7 @@ def start_flood():
                 island[nx][ny] = '*' # 물이 아닌지역에 물이 도달
                 if visited[nx][ny] < visited[x][y]:
                     visited[nx][ny] = visited[x][y] + 1
-                new_waterQ.append((nx,ny)) # 다음 물이 도달할 지역으로 선정
+                    new_waterQ.append((nx,ny)) # 다음 물이 도달할 지역으로 선정
     waterQ = new_waterQ        
 
 isFail = False
