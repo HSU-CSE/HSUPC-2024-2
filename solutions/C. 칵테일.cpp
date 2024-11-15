@@ -19,7 +19,7 @@ int main() {
             }
         }
 
-        int avg = floor((double)sum / cnt) + 0.5;
+        int avg = floor((double)sum / cnt + 0.5);
         if (avg == K) {
             cout << "YES";
             return 0;
@@ -41,7 +41,7 @@ bool answer = false;
 
 void recursive(int depth, int sum, int cnt) {
     if (depth == N) {
-        int avg = floor((double)sum / cnt) + 0.5;
+        int avg = floor((double)sum / cnt + 0.5);
         if (avg == K) {
             answer = true;
         }
