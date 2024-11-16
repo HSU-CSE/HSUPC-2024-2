@@ -27,7 +27,6 @@ void dfs(int i) {
 }
 
 int main() {
-    printf("N을 입력하세요: ");
     scanf("%d", &N); // N 입력
     dfs(0); // DFS 시작
     return 0;
