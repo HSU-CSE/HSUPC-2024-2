@@ -4,7 +4,8 @@
 - [에디토리얼 PDF](docs/HSUPC_2024_1_editorial.pdf)
 - [정답 코드](https://github.com/HSU-CSE/hsupc-2024-1/tree/main/solutions)
 
-![image](/assets/image.png)
+![image](https://github.com/user-attachments/assets/b5a8334d-ff2f-4969-8240-1c2dc59b50a4)
+
 
 # 수상자
 
@@ -18,13 +19,12 @@
 
 # 대회 규칙
 
-- 일정 : 2023년 5월 07일 화요일 15:00-18:00
+- 일정 : 2024년 11월 18일 월요일 14:00-17:00
 - 장소 : 한성대학교 상상관 12층 컨퍼런스홀
 - 문제 구성 : 10문제 (난이도: solved.ac 기준 브론즈-골드)
 - [언어별 시간 제한 보너스](https://help.acmicpc.net/language/info)는 백준 온라인 저지와 동일합니다.
 - 대회 도중 화장실 및 퇴실 가능합니다.
 - 모든 인터넷 사용 금지입니다.
-- 에디토리얼(해설지)은 대회 종료 이후 시상 발표와 함께 공개됩니다.
 
 # 대회 시상
 
