@@ -1,4 +1,4 @@
-# 2023 2학기 컴퓨터공학부 프로그래밍 경진대회
+# 2024 2학기 컴퓨터공학부 프로그래밍 경진대회
 
 - [문제지 PDF](docs/HSUPC_2024_1_problemset.pdf)
 - [에디토리얼 PDF](docs/HSUPC_2024_1_editorial.pdf)
