@@ -1,7 +1,8 @@
 # 2024 2학기 컴퓨터공학부 프로그래밍 경진대회
 
 - [문제지 PDF](docs/HSUPC_2024_2_problemset.pdf)
-- [에디토리얼 PDF](docs/HSUPC_2024_1_editorial.pdf)
+<!-- - [에디토리얼 PDF](docs/HSUPC_2024_1_editorial.pdf) -->
+- [에디토리얼 PDF]
 - [정답 코드](https://github.com/HSU-CSE/hsupc-2024-1/tree/main/solutions)
 
 ![image](https://github.com/user-attachments/assets/b5a8334d-ff2f-4969-8240-1c2dc59b50a4)
@@ -9,11 +10,11 @@
 
 # 수상자
 
-- 1등 :
-- 2등 :
-- 3등 :
-- 4등 :
-- 5등 :
+- 1등 : 유현서
+- 2등 : 김민재
+- 3등 : 유정균
+- 4등 : 장은수
+- 5등 : 안예찬
 
 ---
 
@@ -38,7 +39,7 @@
 
 # 출제자
 
-- 문제 출제 및 검수 : 김준하, 이경민, 창윤빈, 최강, 최지훈,
+- 문제 출제 및 검수 : 김준하, 이경민, 창윤빈, 최강, 최지훈, 박제준
 
 ---
 
